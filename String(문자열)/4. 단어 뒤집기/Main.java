@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
