@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public ArrayList<String> solution(int n, String[] str) {
