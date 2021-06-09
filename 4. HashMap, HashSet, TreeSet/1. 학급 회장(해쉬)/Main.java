@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+public class Main {
     public char solution(int n, String s) {
         char answer = ' ';
         HashMap<Character, Integer> map = new HashMap<>();
