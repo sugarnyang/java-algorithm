@@ -6,8 +6,7 @@ public class Main {
         Stack<Character> stack = new Stack<>();
         for (char x : str.toCharArray()) {
             if (x == ')') {
-                while (stack.pop() != '(')
-                    ;
+                while (stack.pop() != '(');                    ;
             } else
                 stack.push(x);
         }
