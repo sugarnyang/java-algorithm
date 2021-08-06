@@ -24,7 +24,7 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        
+
         for (int x : T.solution(n, arr)) {
             System.out.print(x + " ");
         }
